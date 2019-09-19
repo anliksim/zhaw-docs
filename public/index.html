@@ -12,15 +12,45 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Docs</title>
+    <style>
+
+        body {
+            font: 20px Montserrat, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #ffffff;
+            color: #2c3e50;
+        }
+
+        section {
+            float: left;
+            margin: 10%;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+    </style>
 </head>
 <body>
 <div id="app">
-
-    <div>
+    <section>
         <a class="mdc-icon-button material-icons" href="https://zhaw-docs-scad.web.app/" target="_blank"><i
-                aria-hidden="true" class="fa fa-server"></i>SCAD
+                aria-hidden="true" class="fa fa-server fa-2x fa-pull-left fa-border"></i>
+                SCAD
         </a>
-    </div>
+    </section>
+    <section>
+        <a class="mdc-icon-button material-icons" href="https://zhaw-docs-ccp1.web.app/" target="_blank"><i
+                aria-hidden="true" class="fa fa-cloud fa-2x fa-pull-left fa-border"></i>CCP1
+        </a>
+    </section>
+    <section>
+        <a class="mdc-icon-button material-icons" href="https://zhaw-docs-pspp.web.app/" target="_blank"><i
+                aria-hidden="true" class="fa fa-hashtag fa-2x fa-pull-left fa-border"></i>PSPP
+        </a>
+    </section>
 </div>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
